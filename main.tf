@@ -5,6 +5,6 @@ resource "aws_vpc" "vpc1" {
 }
 */
   
-resource "aws_s3control_bucket" "example" {
+resource "aws_s3_bucket" "example" {
   bucket     = "example"
 }
